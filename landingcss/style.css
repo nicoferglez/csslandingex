@@ -1,0 +1,61 @@
+body {
+    font-family: 'Roboto', sans-serif;
+  }
+
+  div{
+    margin: 12px;
+
+  }
+  p{
+    width: 170px;
+  }
+
+  .top{
+    display: flex;
+    justify-content: flex-end;
+  }
+  .left{
+    margin-right: auto;
+  }
+  .butt{
+    display: flex;
+  }
+  .header2{
+    text-align: center;
+  }
+  .listado{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .img2{
+    width: 170px;
+    height: 200px;
+  }
+  .textos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .quote{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    
+  }
+  .citado{
+    margin-left: auto;
+  }
+  .pie{
+    display: flex;
+    justify-content: center;
+  }
+  .action{
+    flex-direction: column;
+  }
+
+  footer{
+    text-align: center;
+  }
