@@ -7,55 +7,140 @@ body {
 
   }
   p{
+    margin: 18px;
     width: 170px;
+    text-align: center;
+    margin-top: 0px;
+    font-size: 12px;
+    font-style: italic;
   }
 
+  a{
+    color: white;
+    text-decoration: none;
+  }
+
+  .header{
+    background-color: #1F2937;
+    color: white;
+  }
   .top{
     display: flex;
     justify-content: flex-end;
   }
+  .titulo{
+    font-size: 48px;
+    font-weight: 900;
+  }
   .left{
     margin-right: auto;
+    font-size: 24px;
+  }
+  .img1{
+    margin: 12px;
+    margin-bottom: 20px;
+    border-width: 6PX;
+    border-style: solid;
+    border-radius: 20px;
   }
   .butt{
     display: flex;
+    justify-content: center;
+    margin-left: 300px;
+    margin-right: 300px;
+  }
+  .signup{
+    background-color: #3882F6;
+    color: white;
+    border-radius: 6px;
+    font-weight: bold;
+    padding: 6px;
+    padding-left: 18px;
+    padding-right: 18px;
+    margin-left: 12px;
   }
   .header2{
     text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin: 28px;
+    margin-bottom: 0px;
   }
   .listado{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
   }
   .img2{
     width: 170px;
     height: 200px;
+    margin: 18px;
+    margin-bottom: 0px;
+    border-radius: 9px;
+    border-width: 4PX;
+    border-style: solid;
+    border-color: #3882F6;
   }
   .textos{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
+  }
+  .contquo{
+    background-color: #e5e7eb;
+    padding: 24px;
   }
   .quote{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-left: 200px;
-    padding-right: 200px;
-    
+    margin-left: 250px;
+    margin-right: 250px; 
+  }
+  .frase{
+    font-style: italic;
+    font-size: 26px;
+    color: #1f2937;
+    font-weight: 100;
   }
   .citado{
     margin-left: auto;
+    font-weight: bolder;
   }
   .pie{
     display: flex;
     justify-content: center;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 6px;
+    margin-left: 400px;
+    margin-right: 400px;
   }
   .action{
     flex-direction: column;
   }
+  .call{
+    font-size: 20px;
+    font-weight: 900;
+  }
+  .ofduty{
+    font-weight: 100;
+  }
+  .signup2{
+    background-color: #3882F6;
+    color: white;
+    border-radius: 6px;
+    font-weight: bold;
+    padding: 6px;
+    padding-left: 18px;
+    padding-right: 18px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+  }
 
   footer{
     text-align: center;
+    background-color: #1F2937;
+    color: white;
   }
